@@ -1,3 +1,10 @@
+//
+//  ZZCoinBg.swift
+//  Moro Motion
+//
+//
+
+
 import SwiftUI
 
 struct ZZCoinBg: View {
@@ -5,15 +12,15 @@ struct ZZCoinBg: View {
     var height: CGFloat = ZZDeviceManager.shared.deviceType == .pad ? 80:40
     var body: some View {
         ZStack {
-            Image(.coinsBgMD)
+            Image(.coinsBgMM)
                 .resizable()
                 .scaledToFit()
             
             Text("\(user.money)")
-                .font(.system(size: ZZDeviceManager.shared.deviceType == .pad ? 45:16, weight: .black))
+                .font(.system(size: ZZDeviceManager.shared.deviceType == .pad ? 45:24, weight: .black))
                 .foregroundStyle(.black)
                 .textCase(.uppercase)
-                .offset(x: -20)
+                .offset(x: 15)
             
             
             

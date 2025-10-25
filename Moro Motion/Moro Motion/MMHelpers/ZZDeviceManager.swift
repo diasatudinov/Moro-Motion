@@ -1,3 +1,11 @@
+//
+//  ZZDeviceManager.swift
+//  Moro Motion
+//
+//  Created by Dias Atudinov on 25.10.2025.
+//
+
+
 import UIKit
 
 class ZZDeviceManager {
