@@ -1,13 +1,21 @@
+//
+//  ZZAchievementsViewModel.swift
+//  Moro Motion
+//
+//  Created by Dias Atudinov on 25.10.2025.
+//
+
+
 import SwiftUI
 
 class ZZAchievementsViewModel: ObservableObject {
     
     @Published var achievements: [NEGAchievement] = [
-        NEGAchievement(image: "achieve1ImageMD", title: "achieve1TextMD", isAchieved: false),
-        NEGAchievement(image: "achieve2ImageMD", title: "achieve2TextMD", isAchieved: false),
-        NEGAchievement(image: "achieve3ImageMD", title: "achieve3TextMD", isAchieved: false),
-        NEGAchievement(image: "achieve4ImageMD", title: "achieve4TextMD", isAchieved: false),
-        NEGAchievement(image: "achieve5ImageMD", title: "achieve5TextMD", isAchieved: false),
+        NEGAchievement(image: "achieve1ImageMM", title: "achieve1TextMM", isAchieved: false),
+        NEGAchievement(image: "achieve2ImageMM", title: "achieve2TextMM", isAchieved: false),
+        NEGAchievement(image: "achieve3ImageMM", title: "achieve3TextMM", isAchieved: false),
+        NEGAchievement(image: "achieve4ImageMM", title: "achieve4TextMM", isAchieved: false),
+        NEGAchievement(image: "achieve5ImageMM", title: "achieve5TextMM", isAchieved: false),
     ] {
         didSet {
             saveAchievementsItem()
