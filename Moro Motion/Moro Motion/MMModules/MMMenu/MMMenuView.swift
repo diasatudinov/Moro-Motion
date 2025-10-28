@@ -108,7 +108,7 @@ struct MMMenuView: View {
                 }
             )
             .fullScreenCover(isPresented: $showGame) {
-//                GameView()
+                MMGameView()
             }
             .fullScreenCover(isPresented: $showAchievement) {
                 MMAchievementsView()

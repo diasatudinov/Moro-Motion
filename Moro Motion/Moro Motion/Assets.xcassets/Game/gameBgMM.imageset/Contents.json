@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "gameBgMM.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
